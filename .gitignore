@@ -1,0 +1,4 @@
+data/audio/
+data/raw_videos/
+*.wav
+*.mp4
