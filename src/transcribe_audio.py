@@ -42,7 +42,7 @@ def transcribe_audio(input_audio_path: str, output_text_path: str):
 
 
 if __name__ == "__main__":
-    input_audio = "data/audio/sample.wav"
-    output_text = "data/transcripts/sample.txt"
+    input_audio = "data/audio/audio_short.wav.wav"
+    output_text = "data/transcripts/text_short.txt"
 
     transcribe_audio(input_audio, output_text)
