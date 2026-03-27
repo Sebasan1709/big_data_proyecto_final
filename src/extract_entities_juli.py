@@ -6,12 +6,7 @@ def extract_entities_from_chunks():
     # 1. Configurar rutas relativas (desde /src hacia /data)
     base_path = Path(__file__).parent.parent
     data_dir = base_path / "data" / "transcripts" / "chunks"
-    
-    chunks_to_process = [
-        "chunk_008.txt",
-        "chunk_009.txt",
-        "chunk_010.txt"
-    ]
+
     
     # 2. Cargar modelo de spaCy (Large para mejor precisión)
     try:
@@ -25,25 +20,11 @@ def extract_entities_from_chunks():
     for word in custom_stops:
         STOP_WORDS.add(word)
 
-    # 3. Leer y unificar el texto de los insumos
-    full_text = ""
-    for chunk in chunks_to_process:
-        file_path = data_dir / chunk
-        if file_path.exists():
-            with open(file_path, "r", encoding="utf-8") as f:
-                full_text += f.read() + " "
-        else:
-            print(f"Advertencia: No se encontró {file_path}")
+    # 3. Procesar el texto con el modelo NER
+    print(f"--- Iniciando NER refinado en {len("data\\transcripts\\chunks")} archivos ---")
+    doc = nlp("data\\transcripts\\full_transcript.txt")
 
-    if not full_text.strip():
-        print("No hay texto para procesar.")
-        return
-
-    # 4. Procesar el texto con el modelo NER
-    print(f"--- Iniciando NER refinado en {len(chunks_to_process)} archivos ---")
-    doc = nlp(full_text)
-
-    # 5. Organizar y mostrar resultados con filtros
+    # 4. Organizar y mostrar resultados con filtros
     # Filtramos por categorías relevantes para grafos
     entities = {
         "PER": set(),   # Personas
@@ -61,7 +42,7 @@ def extract_entities_from_chunks():
             if ent.label_ in entities:
                 entities[ent.label_].add(ent.text.strip())
 
-    # 6. Imprimir reporte rápido
+    # 5. Imprimir reporte rápido
     print("\nRESULTADOS DE EXTRACCIÓN:")
     for label, found_entities in entities.items():
         print(f"\n[{label}] - {len(found_entities)} halladas:")
