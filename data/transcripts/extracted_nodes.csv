@@ -1,0 +1,64 @@
+nodeId,label,nombre,rol,descripcion,identificacion,correo,telefono,direccion,fecha,tipo
+P001,Persona,Yeison Andrés Chipantasín García,Acusado/Sentenciado,Patrullero de la Policía Nacional - auxiliar de información del CAI Molinos,CC 80774139,,,Carrera 2D No. 37C-74 sur Bogotá,Condenado el 24 oct 2025,Natural
+P002,Persona,Nicole Daniela Jiménez Garzón,Víctima,Joven de 19 años víctima del delito de acceso carnal violento agravado,,,,,,Natural
+P003,Persona,Jeisa Maclean Larrota Ortega,Fiscal delegada,Fiscal 257 adscrita a la Unidad de Delitos Sexuales,,jeisa.larrota@fiscalia.gov.co,,,Audiencia 24 oct 2025,Natural
+P004,Persona,José Aldo Garcés Florián,Representante judicial de víctimas,Abogado adscrito al Sistema Nacional de Defensoría Pública,,,,,,Natural
+P005,Persona,Juan Carlos López Goyeneche,Ministerio Público,Delegado de la Procuraduría convocado a la audiencia,,jclopez@procuraduria.gov.co,3187120421,,,Natural
+P006,Persona,Nicolás Ramírez Muñoz,Defensa del procesado,Abogado defensor - tarjeta profesional 302039 del Consejo Superior de la Judicatura,CC 1018463893,director@nramirezabogados.com,3112526641,Carrera 7 No. 17-01 Bogotá,,Natural
+P007,Persona,Jenny Patricia García Talancon,Magistrada ponente,Ponente de la decisión de segunda instancia - Sala Penal Tribunal Superior de Bogotá,,,,,,Natural
+P008,Persona,Juan Carlos Garrido Barrientos,Magistrado,Integrante de la Sala de Decisión Penal del Tribunal Superior de Bogotá,,,,,,Natural
+P009,Persona,Harold Stevens Echeverri Giraldo,Magistrado,Integrante de la Sala de Decisión Penal del Tribunal Superior de Bogotá,,,,,,Natural
+P010,Persona,Javier Rubio Medina,Testigo de descargo / Patrullero,Patrullero asignado al cuadrante 23 del CAI Molinos - único certificado para manejar pistola Taser,,,,,,Natural
+P011,Persona,Andrés Leonardo Ávila Sánchez,Testigo / Comandante,Teniente coronel - comandante del CAI Molinos y subcomandante de la estación de policía Rafael Uribe,,,,,,Natural
+P012,Persona,Carlos Enrique Lozano Reyes,Perito / Médico forense,Perito adscrito al Instituto Nacional de Medicina Legal - practicó el examen del 14 de enero de 2020,,,,,,Natural
+P013,Persona,Edwin Olaya,Investigador,Investigador que obtuvo el libro de minuta y hojas de vida del CAI Molinos y efectuó reconocimiento fotográfico,,,,,,Natural
+P014,Persona,Stephanie Geraldine Villarrubio,Testigo / Expareja de la víctima,Exnovia de Nicole - testigo de cargo sobre el estado emocional de la víctima tras los hechos,,,,,,Natural
+P015,Persona,Diarnely Rubio Jiménez,Testigo / Exsuegra de la víctima,Madre de Stephanie - testigo sobre el estado emocional de Nicole tras los hechos,,,,,,Natural
+P016,Persona,David,Testigo / Excuñado de la víctima,Hijo de Diarnely - recogió a Nicole en la estación Transmilenio Molinos tras la agresión,,,,,,Natural
+O001,Organización,Tribunal Superior de Distrito Judicial de Bogotá - Sala Penal,Tribunal de segunda instancia,Instancia que profirió la sentencia condenatoria el 24 de octubre de 2025,,,,,24-10-2025,Institucional
+O002,Organización,Fiscalía General de la Nación - Unidad de Delitos Sexuales,Ente acusador,Entidad que ejerció la acción penal en el caso,,,,,  ,Institucional
+O003,Organización,Sistema Nacional de Defensoría Pública,Defensoría,Entidad a la que está adscrito el representante de víctimas,,,,,,Institucional
+O004,Organización,Procuraduría General de la Nación,Ministerio Público,Órgano de control citado a la audiencia,,,,,,Institucional
+O005,Organización,Policía Nacional de Colombia,Fuerza pública,Institución a la que pertenecía el acusado como patrullero / auxiliar de información,,,,,,Institucional
+O006,Organización,Juzgado 58 Penal del Circuito con función de conocimiento de Bogotá,Juzgado de primera instancia,Juzgado que profirió sentencia absolutoria el 6 de junio de 2025 - posteriormente revocada,,,,,,Institucional
+O007,Organización,Instituto Nacional de Medicina Legal y Ciencias Forenses,Entidad pericial,Institución a la que pertenece el perito Carlos Enrique Lozano Reyes,,,,,,Institucional
+O008,Organización,Instituto Nacional Penitenciario y Carcelario (INPEC),Entidad carcelaria,Entidad designada para determinar el establecimiento de reclusión del condenado,,,,,,Institucional
+O009,Organización,Centro de Servicios Judiciales del Sistema Penal Acusatorio de Bogotá,Entidad judicial administrativa,Entidad a través de la cual se librará la orden de captura,,,,,,Institucional
+O010,Organización,Corte Suprema de Justicia - Sala de Casación Penal,Órgano de cierre,Jurisprudencia citada en la sentencia del tribunal,,,,,,Institucional
+O011,Organización,Corte Interamericana de Derechos Humanos,Órgano internacional,Citada en la dosificación punitiva sobre violación sexual de mujeres detenidas,,,,,,Institucional
+O012,Organización,Corte Constitucional de Colombia,Órgano constitucional,Citada en sentencia de unificación SU-220 de 2024 para la orden de captura,,,,,,Institucional
+L001,Lugar,CAI Molinos,Centro de Atención Inmediata - Policía,Lugar donde ocurrieron los hechos delictivos el 13 de enero de 2020,,,,Barrio Molinos - Bogotá,,Físico
+L002,Lugar,Parque Molinos (Parque Marruecos),Espacio público,Lugar donde fue retenida Nicole junto a otras personas,,,,Molinos - Bogotá,,Físico
+L003,Lugar,Estación Transmilenio Molinos,Estación de transporte,Lugar al que llegó Nicole tras la agresión,,,,Bogotá,,Físico
+L004,Lugar,Bogotá,Ciudad,,,,,,Colombia,Geográfico
+L005,Lugar,Barrio Bochica - Molinos,Barrio,Barrio donde vivía la exnovia de la víctima (Stephanie),,,,Bogotá,,Geográfico
+D001,Delito,Acceso carnal violento agravado,Delito sexual,Conducta punible por la que fue condenado Yeison - Arts. 205 y 211 num. 2 del Código Penal,,,,13-01-2020,,Jurídico
+N001,Norma,Artículo 205 del Código Penal,Norma sustantiva,Acceso carnal violento,,,,,,Jurídico
+N002,Norma,Artículo 211 numeral 2 del Código Penal,Norma sustantiva,Circunstancia de agravación - autoridad sobre la víctima,,,,,,Jurídico
+N003,Norma,Artículo 112A del Código Penal,Norma sustantiva,Definición de violencia en contexto penal,,,,,,Jurídico
+N004,Norma,Artículo 112 del Código Penal,Norma sustantiva,Definición de acceso carnal,,,,,,Jurídico
+N005,Norma,Artículo 381 del Código de Procedimiento Penal,Norma procesal,Requisitos para proferir sentencia condenatoria,,,,,,Jurídico
+N006,Norma,Artículo 438 del Código de Procedimiento Penal,Norma procesal,Prueba de referencia admisible,,,,,,Jurídico
+N007,Norma,Artículo 404 de la Ley 906 de 2004,Norma procesal,Criterios para apreciación de la prueba testimonial,,,,,,Jurídico
+N008,Norma,Artículo 166 del Código de Procedimiento Penal,Norma procesal,Comunicaciones a autoridades tras sentencia,,,,,,Jurídico
+J001,Jurisprudencia,Sentencia SP 1591-2025 (28 may 2025),Jurisprudencia,CSJ - Sala Penal - sobre precisión de fecha en acusación,,,,,,Jurídico
+J002,Jurisprudencia,Sentencia CP 2228 de 2022 (29 jun 2022),Jurisprudencia,CSJ - Sala Penal - sobre contenido semántico del acceso carnal,,,,,,Jurídico
+J003,Jurisprudencia,Radicación 560001027 (28 jun 2023),Jurisprudencia,CSJ - Sala Penal - sobre voluntad y consentimiento en acceso carnal violento,,,,,,Jurídico
+J004,Jurisprudencia,Sentencia CP 1590-2025 Rad. 69000070,Jurisprudencia,CSJ - Sala Penal - reitera criterios para acceso carnal violento,,,,,,Jurídico
+J005,Jurisprudencia,Sentencia SP 1306 de 2024,Jurisprudencia,CSJ - Sala Penal - sobre prueba de referencia en delitos sexuales con menores,,,,,,Jurídico
+J006,Jurisprudencia,Sentencia SP 859 de 2025,Jurisprudencia,CSJ - Sala Penal - sobre impugnación de credibilidad,,,,,,Jurídico
+J007,Jurisprudencia,Sentencia SU-220 de 2024,Jurisprudencia,Corte Constitucional - unificación sobre orden de captura,,,,,,Jurídico
+PR001,Prueba,Informe pericial del 14 de enero de 2020,Dictamen médico forense,Pericia de Carlos Enrique Lozano Reyes sobre lesiones de Nicole - Instituto Medicina Legal,,,,14-01-2020,,Probatorio
+PR002,Prueba,Minuta de vigilancia - 3er turno 13 ene 2020,Documento oficial,Registra a Chipantasín García como comandante de turno del CAI Molinos,,,,13-01-2020,,Probatorio
+PR003,Prueba,Libro de minuta de población CAI Molinos,Documento oficial,Sin registro de la víctima Nicole Daniela para el 13 de enero de 2020,,,,,,Probatorio
+PR004,Prueba,Acta de reconocimiento fotográfico - 13 oct 2021,Diligencia investigativa,Nicole identificó a Yeison como su agresor,,,,13-10-2021,,Probatorio
+PR005,Prueba,Formato único de noticia criminal - 14 ene 2020,Denuncia,Denuncia interpuesta por Nicole Daniela el día siguiente a los hechos,,,,14-01-2020,,Probatorio
+PR006,Prueba,Hojas de vida de exuniformados del CAI Molinos,Documento oficial,Incluye hoja de vida de Yeison Chipantasín,,,,,,Probatorio
+AC001,Actuación,Audiencia de segunda instancia,Diligencia judicial,Lectura de decisión de segunda instancia - aprobada acta 154 del 21 oct 2025,Rad. 110016721202000054,,,24-10-2025,Tribunal Superior Bogotá,Judicial
+AC002,Actuación,Sentencia condenatoria de segunda instancia,Decisión judicial,Revoca absolutoria - condena a 198 meses de prisión + inhabilitación,Rad. 110016721202000054,,,24-10-2025,Tribunal Superior Bogotá,Judicial
+AC003,Actuación,Sentencia absolutoria de primera instancia,Decisión judicial,Absolvió a Yeison - posteriormente revocada,,,,06-06-2025,Juzgado 58 Penal Bogotá,Judicial
+AC004,Actuación,Juicio oral,Diligencia judicial,Juicio donde declararon víctima y testigos,,,,2024,,Judicial
+AC005,Actuación,Audiencia de formulación de imputación,Diligencia judicial,Imputación de acceso carnal violento agravado a Yeison,,,,,,Judicial
+AC006,Actuación,Acto de acusación,Diligencia judicial,Escrito de acusación con error de hora (subsanado),,,,,,Judicial
+PE001,Pena,Pena principal de prisión,Sanción penal,198 meses de prisión impuesta a Yeison Andrés Chipantasín García,,,,24-10-2025,,Sanción
+PE002,Pena,Pena accesoria - inhabilitación derechos públicos,Sanción penal,Inhabilitación para ejercicio de derechos y funciones públicas por 198 meses,,,,24-10-2025,,Sanción

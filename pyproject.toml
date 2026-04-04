@@ -5,12 +5,18 @@ description = ""
 authors = [
     {name = "Sebastian Angel",email = "sbstnangel@gmail.com"}
 ]
-requires-python = ">=3.11, <3.15"
+requires-python = ">=3.11, <3.14"
 dependencies = [
     "ffmpeg-python (>=0.2.0,<0.3.0)",
     "faster-whisper (>=1.2.1,<2.0.0)",
     "openai-whisper (>=20250625,<20250626)",
-    "spacy (>=3.8.13,<4.0.0)"
+    "spacy (>=3.8.13,<4.0.0)",
+    "streamlit (>=1.56.0,<2.0.0)",
+    "neo4j (>=6.1.0,<7.0.0)",
+    "plotly (>=6.6.0,<7.0.0)",
+    "pandas (>=3.0.2,<4.0.0)",
+    "pyvis (>=0.3.2,<0.4.0)",
+    "networkx (==3.3)"
 ]
 
 
