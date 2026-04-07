@@ -7,8 +7,8 @@ def transcribe_audio(input_audio_path: str, output_text_path: str):
         print("🔄 Cargando modelo Whisper (tiny)...")
         
         model = WhisperModel(
-            "tiny",            # modelo pequeño para pruebas rápidas
-            device="cpu",      # luego lo cambiaremos a "cuda"
+            "tiny",            
+            device="cpu",      
             compute_type="int8"
         )
 
